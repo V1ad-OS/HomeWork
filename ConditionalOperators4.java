@@ -10,9 +10,9 @@ public class ConditionalOperators4 {
         System.out.println("Введите сторону c");
         Double c = sc.nextDouble();
         if(a+b>c && a+c>b && b+c>a) {
-            System.out.println("����������� ����������");
+            System.out.println("Треугольник существует");
         } else {
-            System.out.println("������������ �� ����������");
+            System.out.println("Треугольника не существует");
         }
 
     }
